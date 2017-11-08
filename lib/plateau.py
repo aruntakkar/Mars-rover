@@ -8,7 +8,7 @@
 """
 
 
-class plateau:
+class Plateau:
     def __init__(self, bounding_coordinates):
         self.bound = [bounding_coordinates[0], bounding_coordinates[1],
                       bounding_coordinates[2], bounding_coordinates[3]]
