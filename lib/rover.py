@@ -1,5 +1,15 @@
 # module for rovers
 
+"""
+Rover class that has attributes:- x, y, direction
+
+get_new_location:- returns possible coordinates & direction
+coordinates still need to be checked whether it is inside plateau.
+
+set_location will set new location of rover on plateau.
+
+"""
+
 
 class Rover:
     def __init__(self, args):
